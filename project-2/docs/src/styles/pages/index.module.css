@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-size: 48px;
+  margin-top: 80px;
+  margin: 0;
+}

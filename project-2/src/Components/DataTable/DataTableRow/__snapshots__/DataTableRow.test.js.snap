@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DataTableRow Renders 1`] = `
+<View
+  accessible={true}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "alignItems": "stretch",
+        "borderBottomWidth": 0.5,
+        "borderStyle": "solid",
+        "flexDirection": "row",
+        "minHeight": 48,
+        "minWidth": "auto",
+      },
+      Object {
+        "backgroundColor": "transparent",
+        "borderBottomColor": "rgb(224, 224, 224)",
+      },
+      undefined,
+    ]
+  }
+/>
+`;
