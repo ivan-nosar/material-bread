@@ -1,13 +1,9 @@
-#!/bin/sh
-
-# please specify required Node.js version
-NODE_VERSION=8.10.0
-
-# workaround to override the v8 alias
-npm config delete prefix
-. ~/.bashrc
-nvm install "$NODE_VERSION"
-nvm alias node8 "$NODE_VERSION"
+#!/usr/bin/env bash
+set -ex
+brew uninstall node@6
+NODE_VERSION="8.9.4"
+curl "https://nodejs.org/dist/v${NODE_VERSION}/node-v${NODE_VERSION}.pkg" > "$HOME/Downloads/node-installer.pkg"
+sudo installer -store -pkg "$HOME/Downloads/node-installer.pkg" -target "/"
 
 echo "Node version: $(node -v)"
 echo "npm version: $(npm -v)"
