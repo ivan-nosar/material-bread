@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # please specify required Node.js version
-NODE_VERSION=8.10.0
+NODE_VERSION=12.1.0
 
 # workaround to override the v8 alias
 npm config delete prefix
